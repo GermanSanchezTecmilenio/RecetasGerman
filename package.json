@@ -1,20 +1,17 @@
 {
   "name": "forkify",
   "version": "1.0.0",
-  "description": "",
-  "license": "MIT",
-  "author": "German Sanchez",
-  "type": "commonjs",
   "source": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --no-optimize --no-source-maps"
-  },
-  "dependencies": {
-    "parcel": "^2.16.3",
-    "v2": "^0.0.3"
+    "build": "parcel build index.html"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.16.3"
+    "@parcel/transformer-sass": "^2.8.0",
+    "parcel": "^2.8.0"
+  },
+  "dependencies": {
+    "fractional": "^1.0.0",
+    "fracty": "^1.0.12"
   }
 }

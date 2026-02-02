@@ -570,6 +570,7 @@ body {
 }
 
 .recipe__title span {
+  -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
   background-image: linear-gradient(to bottom right, #fbdb89, #f48982);
   padding: 1.3rem 2rem;
